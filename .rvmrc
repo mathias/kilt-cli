@@ -1,1 +1,1 @@
-rmv use ruby-1.8.7-p248@kilt
+rvm use ruby-1.8.7-p248@kilt
