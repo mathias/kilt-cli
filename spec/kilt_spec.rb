@@ -7,10 +7,10 @@ describe Kilt do
     end
 
     it "should save the id of the latest activity" do
-      client = Kilt.init '123456789' 
+      client = Kilt.init '123456789'
       client.id.should == '25906467'
     end
-  
+
     it "should request the feed with the token" do
       token = '34g43g4334g43g43'
       RestClient.should_receive(:get) do |url, opts|
@@ -57,7 +57,7 @@ describe Kilt do
       before :all do
         silence_warnings { RUBY_PLATFORM = "darwin" }
       end
-      
+
       it "should notify growl calling growlnotify with 'Pivotal Tracker' as the name the application, the author and the action" do
         regexp = /growlnotify -t \'Pivotal Tracker\' -m \'\S+. finished lorem ipsum\' --image \S+.pivotal\.png/
         @client.should_receive(:system).with(regexp)

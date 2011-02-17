@@ -1,39 +1,34 @@
 h2. ABOUT
 
-Kilt looks for new activities in all your projects and displays them with Growl/Libnotify/Snarl, so you are up-to-date with everything is happening.
+Kilt looks for new activities in all your projects and displays them with -Growl/Libnotify/Snarl.- good ol' STDOUT.
+
+*THIS VERSION ONLY OUTPUTS TO THE COMMANDLINE !!!*
+
 If you want to help, please send me a pull request.
 
-h2. SCREENSHOTS
+h2. SCREENSHOTS 
 
-OS X
-!http://img13.imageshack.us/img13/2583/kiltonosx.png!
-
-Ubuntu
-!http://img691.imageshack.us/img691/9453/kiltonubuntu.png!
-
-Windows
-!http://img192.imageshack.us/img192/9405/kiltonwindows.png!
+!https://img.skitch.com/20110217-gmq9x75hsfaranmqb96kgee96s.jpg(kilt-cli in action)
 
 h2. DEPENDENCIES
 
 On OS X:
 
-* "Growl":http://growl.info
-* "growlnotify":http://growl.info/extras.php#growlnotify
+* -"Growl":http://growl.info-
+* -"growlnotify":http://growl.info/extras.php#growlnotify-
 
 On Ubuntu:
 
-* "libnotify-bin":http://packages.ubuntu.com/lucid/libnotify-bin
+* -"libnotify-bin":http://packages.ubuntu.com/lucid/libnotify-bin-
 
 On Windows:
-* "Snarl":http://www.fullphat.net
-* "ruby-snarl":http://rubygems.org/gems/ruby-snarl
+* -"Snarl":http://www.fullphat.net-
+* -"ruby-snarl":http://rubygems.org/gems/ruby-snarl-
 * "win32-process":http://rubygems.org/gems/win32-process
 
 h2. INSTALLATION
 
-<pre><code>gem install kilt
-kilt-install TOKEN</code></pre>
+<pre><code>bin/kilt-install TOKEN</code></pre>
 
 If you don't know your token, you can execute this:
 
@@ -43,13 +38,11 @@ More info and other alternative "here":http://www.pivotaltracker.com/help/api?ve
 
 h2. USAGE
 
-<pre><code>kilt-app</code></pre>
-
-h2. TODO
-
-* kilt-check (see issues)
+<pre><code>bin/kilt-cli</code></pre>
 
 h2. LICENSE
+
+Forked Feb 2011 by "Matt Gauger":https://github.com/mathias
 
 Copyright (c) 2010 Diego Carrion
 
