@@ -8,7 +8,7 @@ If you want to help, please send me a pull request.
 
 h2. SCREENSHOTS 
 
-!https://img.skitch.com/20110217-gmq9x75hsfaranmqb96kgee96s.jpg(kilt-cli in action)
+!https://img.skitch.com/20110217-gmq9x75hsfaranmqb96kgee96s.jpg(kilt-cli in action)!
 
 h2. DEPENDENCIES
 
