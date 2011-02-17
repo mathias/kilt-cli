@@ -23,6 +23,7 @@ pkg
 cache
 gems
 bin/pivotal-tracker-client.rb.pid
-.rvmrc
 
 ctags
+
+kilt.err

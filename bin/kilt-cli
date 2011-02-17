@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'yaml'
+require 'lib/kilt'
+require 'win32/process' if RUBY_PLATFORM =~ /mswin|mingw|win32/
+
+token = YAML.load_file(File.expand_path("~/.pivotal_tracker"))['token']
+
+Kilt.init(token)
+
+loop do
+  sleep 5
+end
