@@ -26,4 +26,6 @@ bin/pivotal-tracker-client.rb.pid
 
 ctags
 
+Gemfile.lock
+
 kilt.err

@@ -12,19 +12,10 @@ h2. SCREENSHOTS
 
 h2. DEPENDENCIES
 
-On OS X:
-
-* -"Growl":http://growl.info-
-* -"growlnotify":http://growl.info/extras.php#growlnotify-
-
-On Ubuntu:
-
-* -"libnotify-bin":http://packages.ubuntu.com/lucid/libnotify-bin-
-
-On Windows:
-* -"Snarl":http://www.fullphat.net-
-* -"ruby-snarl":http://rubygems.org/gems/ruby-snarl-
-* "win32-process":http://rubygems.org/gems/win32-process
+* rest-client
+* rufus-scheduler
+* crack
+* "win32-process":http://rubygems.org/gems/win32-process if RUBY_PLATFORM ~= /mswin|mingw|win32/
 
 h2. INSTALLATION
 
